@@ -2,9 +2,14 @@
     flex-basis: 50%;
   }
 
+.habilidades{
+  margin-left: 5px;
+}
+
 .infolab{
     padding: 10px ;
 }
+
 
 .titlab{
     background-color: #574127;
@@ -26,6 +31,10 @@
     margin: 10px 0;
 }
 
+.estudio h4{
+  margin-left: 0.8rem;
+}
+
 progress{
   margin-left: 60px;
 }
@@ -45,3 +54,9 @@ progress[value] {
     border-radius: 4px;
     background-size: 20px 15px, 100% 100%, 100% 100%;
   }
+
+@media screen and (max-width: 500px) {
+  .acerca{
+    flex-direction: column;
+  }
+}

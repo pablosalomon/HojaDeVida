@@ -5,7 +5,7 @@ header{
     padding: 40px;
 }
 .foto{
-    flex-basis: 40%;
+    flex-basis: 20%;
     text-align: center;
 }
 
@@ -16,14 +16,29 @@ header{
 }
 
 .texto{
-    flex-basis: 70%;
+    flex-basis: 180%;
 }
 
 .texto h3{
-    font-weight: 200;
+    font-weight: 150;
+    color: black;
 }
 
 .nombre{
     color: #e3610b;
 }
 
+@media screen and (max-width: 500px) {
+    header{
+        background-image: url('header.png');
+        display: inline-block;
+    }
+
+    .ah1{
+        color: black;
+    }
+
+    .foto{
+        align-content: center;
+    }
+  }

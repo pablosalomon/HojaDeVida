@@ -27,3 +27,22 @@ h1, h3{
 p{
   text-align: justify;
 }
+
+@media screen and (max-width: 500px) {
+  body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container{
+    max-width: 500px;
+  }
+
+  #informacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}

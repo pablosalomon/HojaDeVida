@@ -51,11 +51,11 @@ function Acerca(){
             <h2 className="titlab"><i class="fas fa-dumbbell"></i> HABILIDADES</h2>
             </div>
 
-            <div className="habilidades">•	Conocimiento de Inglés: A2 <progress max="100" value="50"></progress> 50%</div>
-            <div className="habilidades">•	Creación de sistemas de info <progress max="100" value="70"></progress> 70%</div>
-            <div className="habilidades">•	Conocimiento de programas de edición multimedia <progress max="100" value="70"></progress> 70%</div>
-            <div className="habilidades">•	Manejo básico de programas de office <progress max="100" value="40"></progress> 40%</div>
-            <div className="habilidades">•	Navegación optima en el internet <progress max="100" value="80"></progress> 80%</div>
+            <div className="habilidades">•Conocimiento de Inglés: A2 <progress max="100" value="50"></progress> 50%</div>
+            <div className="habilidades">•Creación de sistemas de info <progress max="100" value="70"></progress> 70%</div>
+            <div className="habilidades">•Conocimiento de programas de edición multimedia <progress max="100" value="70"></progress> 70%</div>
+            <div className="habilidades">•Manejo básico de programas de office <progress max="100" value="40"></progress> 40%</div>
+            <div className="habilidades">•Navegación optima en el internet <progress max="100" value="80"></progress> 80%</div>
 
             <div className="infolab">
                 <h2 className="titlab"><i class="fas fa-user-graduate"></i> APTITUDES</h2>
