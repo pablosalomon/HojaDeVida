@@ -1,3 +1,6 @@
+import {
+    Link
+  } from "react-router-dom";
 import './Header.css';
 import foto from './foto.jpg';
 function Header (){
@@ -11,7 +14,7 @@ function Header (){
         <div className="texto">
             <h1 className="ah1"><span className="nombre">Pablo</span> Antonio <span className="nombre">Salomón</span> Gomez</h1>
             <h3>“Animado, determinado y creativo”</h3>
-            <a className="btn btn-primary" href="/">Volver</a>
+            <Link to="/" className="btn btn-danger">Volver</Link>  
         </div>
         </header>
     );
